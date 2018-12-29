@@ -1,1 +1,11 @@
 theme: jekyll-theme-cayman
+title: Record And Share
+description: >- # this means tj:qgnore newlines until "baseurl:"
+  personal blog
+markdown: kramdown
+timezone:	"Asia/Shanghai"
+markdown: kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-paginate
